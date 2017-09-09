@@ -9,7 +9,7 @@
            sync-j="4" />
 
   <remote  name="EmmettTsai"
-           fetch="https://github.com/EmmettTsai"
+           fetch="https://github.com"
            revision="flo-oreo-test"
            sync-j="4" />
 
@@ -358,12 +358,12 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="EmmettTsai" />
+  <project path="hardware/qcom/audio" name="EmmettTsai/android_hardware_qcom_audio" remote="EmmettTsai" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="EmmettTsai" />
+  <project path="hardware/qcom/gps" name="EmmettTsai/android_hardware_qcom_gps" remote="EmmettTsai" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
@@ -512,12 +512,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="android_system_bt" remote="EmmettTsai" />
+  <project path="system/bt" name="EmmettTsai/android_system_bt" remote="EmmettTsai" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
-  <project path="system/core" name="android_system_core" remote="EmmettTsai" />
+  <project path="system/core" name="EmmettTsai/android_system_core" remote="EmmettTsai" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
@@ -533,7 +533,7 @@
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="EmmettTsai" />
+  <project path="system/sepolicy" name="EmmettTsai/android_system_sepolicy" remote="EmmettTsai" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
@@ -567,15 +567,15 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Devices -->
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="EmmettTsai" />
+  <project path="device/asus/flo" name="EmmettTsai/android_device_asus_flo" remote="EmmettTsai" />
 
   <!-- Blobs -->
-  <project path="vendor" name="android_vendor" remote="EmmettTsai" />
+  <project path="vendor" name="EmmettTsai/android_vendor" remote="EmmettTsai" />
 
   <!-- Prebuilts Kernel -->
-  <project path="device/asus/flo-kernel" name="android_device_asus_flo-kernel" remote="EmmettTsai" clone-depth="1" />
+  <project path="device/asus/flo-kernel" name="EmmettTsai/android_device_asus_flo-kernel" remote="EmmettTsai" clone-depth="1" />
 
   <!-- Kernel -->
-  <project path="kernel/msm" name="android_kernel_google_msm" remote="EmmettTsai" groups="notdefault, kernel-source" />
+  <project path="kernel/msm" name="EmmettTsai/android_kernel_google_msm" remote="EmmettTsai" groups="notdefault, kernel-source" />
 
 </manifest>
